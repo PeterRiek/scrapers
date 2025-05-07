@@ -15,7 +15,7 @@ A simple web scraping tool to bulk-download PDF files from a sectioned website b
 
 ```bash
 git clone https://github.com/PeterRiek/scrapers.git
-cd blumenwiese-scrape
+cd scrapers
 ```
 
 2. Create and activate a virtual environment:
@@ -65,7 +65,7 @@ Downloads will be saved under the downloaded\_pdfs directory, preserving their f
 ## 🧪 Example Session
 
 ```plaintext
-(.venv) C:\Users\root\git\blumenwiese-scrape>python downloader.py
+(.venv) C:\Users\root\git\scrapers>python downloader.py
 Log in using your browser and afterwards press enter to start.
 
 Enter a section tag for which to start the bulk download.
