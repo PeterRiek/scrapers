@@ -69,7 +69,7 @@ def main():
         count = 0
         for e in data:
             if tag in e["sections"]:
-                if not is_pdf_link(e["url"], session): break
+                if not is_pdf_link(e["url"], session): continue
                 download_folder =  os.path.join(DOWNLOAD_FOLDER, *e["sections"])
                 os.makedirs(download_folder, exist_ok=True)
                 download_pdf(
@@ -80,8 +80,6 @@ def main():
                 )
                 count += 1
         print(f"Done downloading {count} items!")
-
-
 
 
 if __name__ == "__main__":
