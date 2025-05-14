@@ -103,5 +103,3 @@ downloaded_pdfs/
 ## 🔐 License
 
 [MIT License](LICENSE)
-
-Would you like me to generate a requirements.txt file or .gitignore as well?
